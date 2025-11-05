@@ -22,7 +22,7 @@ Se preferir construir localmente (no PC com Flutter SDK):
 3) flutter build apk --debug
 4) flutter build apk --release
 5) APKs serão gerados em build/app/outputs/flutter-apk/
-
+# build test
 Notas:
 - Release APK pode precisar de assinatura para publicação em loja. O workflow gera um release apk não-assinado (útil para testes) a menos que forneça keystore e variáveis.
 - Se o repositório for privado, GitHub Actions ainda funciona; artefacts ficam disponíveis apenas para quem tem acesso ao repo.
