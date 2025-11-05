@@ -19,9 +19,9 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
+      - name: Build APK  
+        run: flutter build apk --release -t main.dart
 
-      - name: Build APK
-        run: flutter build apk --release
 
       - name: Upload artifact (APK)
         uses: actions/upload-artifact@v4
